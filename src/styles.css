@@ -173,7 +173,6 @@ main {
 .destinations {
     width: 100%;
     height: 600px;
-    background-color: lightblue;
     display: flex;
     justify-content: space-between;
 }
@@ -207,4 +206,79 @@ main {
 .destination__card > img {
     width: 150px;
     height: 150px;
+}
+
+.card__location {
+    position: relative;
+    bottom: 85px;
+    left: 180px;
+}
+
+.card__spots {
+    position: relative;
+    bottom: 115px;
+    left: 280px;
+    width: 10ch;
+}
+
+.packages {
+    background-color: lightgray;
+}
+
+.packages__title {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.packages__container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.packages__btn {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    background-color: gray;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.packages__btn:nth-child(1) {
+    background-color: #00a651;
+}
+
+.packages__cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.pack__card {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.packages__cta {
+    width: 180px;
+    height: 60px;
+    background-color: #00a651;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    left: 600px;
+    font-size: 20px;
+    margin-top: 80px;
 }
