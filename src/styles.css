@@ -251,7 +251,7 @@ main {
 }
 
 .packages {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.562);
 }
 
 .packages__title {
@@ -287,17 +287,40 @@ main {
 .packages__cards {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 60px;
 }
 
 .pack__card {
-    width: 400px;
-    height: 400px;
-    background-color: gray;
+    width: 350px;
+    height: 350px;
+    background-color: white;
     border-radius: 10px;
     font-size: 16px;
+}
+
+.pack__duration {
+    position: relative;
+    left: 8px;
+}
+
+.pack__price {
+    position: relative;
+    bottom: 18px;
+    left: 230px;
+}
+
+.pack__desc {
+    position: relative;
+    bottom: 10px;
+}
+
+.pack__more {
+    position: relative;
+    color: black;
+    left: 235px;
+    bottom: 20px;
 }
 
 .packages__cta {
@@ -311,6 +334,8 @@ main {
     left: 600px;
     font-size: 20px;
     margin-top: 80px;
+    margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .booking__title {
@@ -335,7 +360,39 @@ main {
 }
 
 .booking__step {
-    padding-left: 200px;
+    padding-left: 150px;
+}
+
+.color-block {
+    width: 100px;
+    height: 100px;
+    background-color: #f0bb1f;
+    position: relative;
+    top: 280px;
+    right: 50px;
+}
+
+.step__icon {
+    position: relative;
+}
+
+.step__title {
+    position: relative;
+    top: 250px;
+    left: 0px;
+}
+
+.step__desc {
+    position: relative;
+    top: 260px;
+    left: 0px;
+    margin-bottom: 40px;
+}
+
+.booking__tracker {
+    position: relative;
+    bottom: 20%;
+    left: 90%;
 }
 
 .reviews {
