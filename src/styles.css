@@ -15,7 +15,7 @@ header {
     height: 100vh;
     background-image: url(../img/stefan-stefancik-6whwCHgsMiA-unsplash\ 1.png);
     object-fit: cover; 
-}  /* responsive down to 650, breaks after */
+}  
 
 nav {
     width: 100%;
@@ -84,6 +84,7 @@ a {
     border-radius: 10px;
     border: none;
     box-shadow: 3px 2px rgba(0, 0, 0, 0.301);
+    cursor: pointer;
 }
 
 .services__title {
@@ -404,8 +405,8 @@ main {
 }
 
 .email__container {
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
     background-color: rgba(173, 216, 230, 0.445);
     position: relative;
     margin-left: auto;
@@ -416,23 +417,23 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 30px;
 }
 
 .email__title {
     font-size: 26px;
-    width: 45ch;
+    max-width: 30ch;
+    min-width: 30ch;
     text-align: center;
-    margin: 20px 150px;
+    margin-top: 20px;
 }
 
 .email__container > input {
-    width: 300px;
+    width: 280px;
     height: 40px;
     border: none;
-    margin-top: 20px;
     position: relative;
-
-
+    border-radius: 8px;
 }
 
 .email__btn {
