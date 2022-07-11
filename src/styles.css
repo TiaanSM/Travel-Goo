@@ -420,8 +420,9 @@ main {
 }
 
 .email__container {
+    width: auto;
     max-width: 600px;
-    height: 300px;
+    height: auto;
     background-color: rgba(173, 216, 230, 0.445);
     position: relative;
     margin-left: auto;
@@ -438,7 +439,6 @@ main {
 .email__title {
     font-size: 26px;
     max-width: 30ch;
-    min-width: 30ch;
     text-align: center;
     margin-top: 20px;
 }
@@ -630,5 +630,66 @@ main {
         border-radius: 10px;
     }
 
+    .email__container input {
+        left: 2px;
+        top: 70px;
+    }
+
+    .email__title {
+        font-size: 24px;
+    }
+
+    .email__btn {
+        top: 90px;
+        left: 0px;
+    }
+
+    .link__container {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }   
+ 
+@media(max-width: 360px) {
+
+       .header__title {
+        font-size: 32px;
+       }
+       
+      .destination__card {
+          position: relative;
+          left: 125px;
+          width: 320px;
+      }
+
+      .card__spots {
+        left: 185px;
+      }
+
+      .location__icon {
+        left: 280px;
+      }
+
+      .pack__card {
+        position: relative;
+        right: 50px;
+      }
+
+      .packages__cta {
+        left: 90px;
+      }
+
+      .link__container {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .social {
+        position: relative;
+        left: 160px;
+        top: 100px;
+      }
+  }
+
+ 
   
